@@ -1,0 +1,65 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-color:#444;
+  /*background-image: url('http://antoine.goutenoir.com/games/discollision/img/bg/dancefloor_02.gif');*/
+  background-image: url('https://files.slack.com/files-pri/T0455847Q-F0CCZMJ8N/your-giffed-face.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 18px;
+  width: 100%;
+  background-position: 0px;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+.title, .addDancerButton{
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  position: relative;
+  height:32px;
+  background-color: #555;
+  z-index: 999;
+}
+.title{
+  background-color: #777;
+}
+.dancer{
+  border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+  z-index: 998;
+}
+.squareDancer{
+  border: none;
+  content:url(http://findicons.com/files/icons/2484/hathix_cartoon_animals/298/tan_mouse.png);
+  height: 50px;
+}
+.bounceDancer{
+  border: none;
+  content:url(http://www.knowlesdogtraining.com/irish_leprechaun_dance_turn_hg_clr.gif);
+  height: 100px;
+}
+.blinkyDancer{
+  border: none;
+  content:url(http://orig02.deviantart.net/d4f1/f/2015/129/1/4/pacman___blinky___red_ghost_by_charlychive-d8sqkcj.gif);
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
